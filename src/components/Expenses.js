@@ -1,3 +1,4 @@
+import Card from "./Card";
 import ExpenseItem from "./ExpenseItem";
 
 import "./Expenses.css";
@@ -8,8 +9,8 @@ export default function Expenses(props) {
     })
 
     return (
-        <div className="expenses">
+        <Card className="expenses">
             {expentseItems}
-        </div>
+        </Card>
     )
 }
